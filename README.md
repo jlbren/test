@@ -24,7 +24,7 @@ TABLE results (
 * Queries may be run in the shell using standard [sqlite syntax](https://sqlite.org/lang.html) following the above schema. 
   * e.g. to select all information for a given a query would take the form `select * from results where gene = <mygene> ` 
 
-*Several example queries and there results are demonstrated below: 
+*Several example queries and their results are demonstrated below: 
 ```SQL 
 select tissue,h2,h2_ci from results where gene = "ERAP2";
 ``` 
